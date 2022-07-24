@@ -38,7 +38,7 @@ const Title = styled.h1`
 const Container = styled.div`
     padding:35px;
     height: 100vh;
-    background-color: #45F622;
+    background-color: #00A868;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,5 +60,17 @@ const Container = styled.div`
     }
 `;
 const ContainerButton = styled.div`
-    
+    margin-top: 35px;
+    button{
+        background-color: #2eba12;
+        height: 46px;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 5px;
+        font: 700 20px 'Raleway', sans-serif; 
+        cursor: pointer;
+        &:last-child{
+            background-color: red;
+        }
+    }
 `;
